@@ -14,4 +14,8 @@ Instance of a Class
 5. prototype property of any JavaScript Class will always return another Class (or function).
 6. We can set prototype using __proto__. But we should never use it because it’s deprecated in ES6. Instead, you can use Object.setPrototypeOf() method to change the value of a class's prototype property.
 
+## constructor method
+constructor is special function that gets executed when an object is created from a Class. Constructor functions are usually used for initializing properties and methods in an instance of a class.
 
+- automatically invoked by new.
+- intializes object. 

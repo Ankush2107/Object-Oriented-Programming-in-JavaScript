@@ -18,4 +18,11 @@ Instance of a Class
 constructor is special function that gets executed when an object is created from a Class. Constructor functions are usually used for initializing properties and methods in an instance of a class.
 
 - automatically invoked by new.
-- intializes object. 
+- intializes object.
+
+## OOPs Principle
+
+### Inheritance
+A class can inherit properties or behaviors from one or more parent classes. This is also called multiple inheritance because the child class inherits properties and methods from two or more parent classes.
+
+- If child and parent have same method, child's method will be use this is called method overriding.

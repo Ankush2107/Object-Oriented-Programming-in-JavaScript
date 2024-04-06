@@ -20,9 +20,13 @@ constructor is special function that gets executed when an object is created fro
 - automatically invoked by new.
 - intializes object.
 
+## super keyword
+The super keyword is to call the constructor of it's parent class to access the parent's properties and method
+
 ## OOPs Principle
 
 ### Inheritance
 A class can inherit properties or behaviors from one or more parent classes. This is also called multiple inheritance because the child class inherits properties and methods from two or more parent classes.
 
 - If child and parent have same method, child's method will be use this is called method overriding.
+

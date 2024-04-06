@@ -12,7 +12,12 @@ class Person{
 }
 
 class Coder extends Person {
+    constructor(language) {
+        super(); // to invoke parent class constructor
+        this.language = language
+    }
     work() {
+        super.eat()
         console.log("Problem solving");
     }
 }
@@ -23,7 +28,8 @@ class Doctor extends Person {
     }
 }
 
-let c = new Coder()
+let c = new Coder("C++")
+console.log(c);
 c.eat();
 c.sleep();
 c.work()
